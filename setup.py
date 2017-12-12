@@ -4,7 +4,7 @@ from codecs import open
 from setuptools import setup
 
 __package_name__ = 'dummy-env-prep'
-__version__ = '0.9.0'
+__version__ = '0.9.1'
 
 with open('README.rst', 'r', 'utf-8') as fh:
     README = fh.read()
@@ -22,6 +22,7 @@ Includes
 .. code-block::
 
     {requirements}
+
 """.format(
         readme=README,
         requirements=REQUIREMENTS
