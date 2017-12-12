@@ -1,0 +1,5 @@
+dummy-env-prep-cookiecutter (1.0.0) stable; urgency=low
+  * Initial template: generate pip-installable requirements for system-level projects
+
+ -- John Purcell <jpurcell.ee@gmail.com>  Mon, 11 Dec 2017 17:30:00 -0700
+ 

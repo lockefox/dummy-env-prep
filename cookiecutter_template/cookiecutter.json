@@ -1,0 +1,9 @@
+{
+    "project_name": "my-dummy-env-prep",
+    "author":"Your Name",
+    "email":"your_email@email.com",
+    "github_handle": "github_user",
+    "project_brief": "brief description of project",
+    "template_version": "1.0.0",
+    "keywords":"single-word list of space-separated keywords"
+}
