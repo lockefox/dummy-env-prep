@@ -4,7 +4,7 @@ from codecs import open
 from setuptools import setup
 
 __package_name__ = 'dummy-env-prep'
-__version__ = '0.9.2a0'
+__version__ = '0.9.2a1'
 
 with open('README.rst', 'r', 'utf-8') as fh:
     README = fh.read()
@@ -15,7 +15,8 @@ with open('requirements.txt', 'r', 'utf-8') as fh:
 def make_readme():
     """generate README and append `requirements.txt` into it"""
     tabbed_requirements = ['\t' + line for line in REQUIREMENTS.splitlines()]
-    return """{readme}
+    return """
+{readme}
 
 Includes
 ========
