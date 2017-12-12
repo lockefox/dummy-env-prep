@@ -12,10 +12,25 @@ with open('README.rst', 'r', 'utf-8') as fh:
 with open('requirements.txt', 'r', 'utf-8') as fh:
     REQUIREMENTS = fh.read()
 
+def make_readme():
+    """generate README and append `requirements.txt` into it"""
+    return """{readme}
+
+Includes
+========
+
+.. code-block::
+
+    {requirements}
+""".format(
+        readme=README,
+        requirements=REQUIREMENTS
+    )
+
 setup(
     name=__package_name__,
     description='A handy template for including requirements in an environment',
-    long_description=README,
+    long_description=make_readme(),
     version=__version__,
     author='John Purcell',
     author_email='jpurcell.ee@gmail.com',
